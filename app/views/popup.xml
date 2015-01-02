@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="win" class="container" onOpen="onOpen">
+		
+		<Label>Popup Window</Label>
+		
+	</Window>
+</Alloy>

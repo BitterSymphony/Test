@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="win" module="xp.ui" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		<ScrollView width="Ti.UI.FILL" height="Ti.UI.FILL" scrollType="vertical" layout="vertical">
+			<View width="Ti.UI.FILL" height="190">
+				<ImageView class="shelves"></ImageView>
+				<ImageView class="leftItem" image="/images/bookCover.jpg"></ImageView>
+				<ImageView class="leftRibbon" image="/images/purchasedBadge.png"></ImageView>
+				<ImageView class="rightItem" image="/images/bookCover.jpg"></ImageView>
+				<ImageView class="rightRibbon" image="/images/purchasedBadge.png"></ImageView>
+			</View>
+			<View width="Ti.UI.FILL" height="190">
+				<ImageView class="shelves"></ImageView>
+				<ImageView class="leftItem" image="/images/bookCover.jpg"></ImageView>
+				<ImageView class="leftRibbon" image="/images/purchasedBadge.png"></ImageView>
+				<ImageView class="rightItem" image="/images/bookCover.jpg"></ImageView>
+				<ImageView class="rightRibbon" image="/images/purchasedBadge.png"></ImageView>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

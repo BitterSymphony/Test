@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- System -->
+	<string name="app_name">Mobile Trader (Client)</string>
+	<!--string name="app_name">Mobile Trader (AE)</string-->
+	
+	<!-- Menu -->
+	<string name="menu_window1">Window 1</string>
+	<string name="menu_window2">Window 2</string>
+
+	
+</resources>

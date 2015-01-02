@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="win" module="xp.ui" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		<View class="tabContainer">
+			<View class="tabBox">
+				<View id="leftTab" class="tab" right="0">
+					<Label id="leftTabTxt" text="我的話題"/>
+				</View>
+			</View>
+			<View class="tabBox">
+				<View id="rightTab" class="tab" left="0" backgroundImage="/images/tabBox.png">
+					<Label id="rightTabTxt" text="我的回覆" />
+				</View>
+			</View>
+		</View>
+		<View class="separator" />
+		<TableView id="forumList">
+			<Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="myLoader" />
+		</TableView>
+	</Window>
+</Alloy>

@@ -1,0 +1,108 @@
+".container" : {
+  
+},
+"#rowView":{
+	width:Ti.UI.FILL,
+	height:100
+},
+'.colorOverlay':{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	backgroundColor:'#212121',
+	opacity:0.3
+},
+'.separator':{
+	width:Ti.UI.FILL,
+	height:6
+},
+'.sepView':{
+	width:Ti.UI.FILL,//'65%'
+	height:'50%',
+	layout:'horizontal'
+},
+'.engTitle':{
+	left:0,
+	color:'#34373e',
+},
+'.engTitle[platform=ios]':{
+	font:{fontSize:'11',fontFamily:'MYRIADPRO-REGULAR',fontWeight:'bold'}
+},
+'.engTitle[platform=android]':{
+	font:{fontSize:'11',fontFamily:'MYRIADPRO-REGULAR',fontWeight:'bold'}
+},
+".engTitle2":{
+	//left:'5%',
+	color:'#797979',
+	width:'90%'
+},
+'.engTitle2[platform=ios]':{
+	font:{fontSize:'11',fontFamily:'HelveticaNeue-Thin',fontWeight:'bold'}
+},
+'.engTitle2[platform=android]':{
+	font:{fontSize:'11',fontFamily:'HelveticaNeue-Thin',fontWeight:'bold'}
+},
+
+
+".chiTitle":{
+	//left:0,
+	color:'#FFFFFF',
+},
+'.chiTitle[platform=ios]':{
+	font:{fontSize:'11'}//,fontFamily:'KozGoPr6N-Light'
+},
+'.chiTitle[platform=android]':{
+	font:{fontSize:'11'}
+},
+'.productImage':{
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL,
+	top:0
+},
+'.leftGrid':{
+	width:'50%',
+	height:Ti.UI.FILL
+},
+
+'.innerHorizon':{
+	width:Ti.UI.FILL,
+	height:Ti.UI.SIZE,
+	layout:'horizontal'
+},
+
+
+
+
+
+
+
+'#newsImg':{
+	width : 80,
+    height : 60,
+    left : 10
+},
+'#newsTitle':{
+	color : '#935999',
+	font : {
+		fontSize : 18,
+		fontFamily : 'HelveticaNeue'
+	},
+    left : 100,
+    top : 10,
+    right : 10,
+    height : 21,
+},
+'#newsDate':{
+	color : '#686765',
+	font : {
+		fontSize : 15,
+		fontFamily : 'HelveticaNeue'
+	},
+    left : 100,
+    top : 30,
+},
+'.separator':{
+	color : '#aa8965',
+    width:Ti.UI.FILL,
+    bottom : 0,
+    height : '1px',
+}

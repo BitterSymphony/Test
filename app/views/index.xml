@@ -1,0 +1,60 @@
+<Alloy>
+	<!--View id="contentView"-->
+		<Widget id="drawer" src="nl.fokkezb.drawer" >
+			<Window id="leftWindow" module="xp.ui" role="leftWindow">
+				<ScrollView class="topMenu">
+					<View class="topMenuItem">
+						<ImageView id="facebook" class="topMenuImg" image="/images/topMenu/facebook.png"/>
+						<View class="separator"/>
+					</View>
+					<View class="topMenuItem">
+						<ImageView id="weibo" class="topMenuImg" image="/images/topMenu/weibo.png"/>
+						<View class="separator"/>
+					</View>
+					<View class="topMenuItem">
+						<ImageView id="youtube" class="topMenuImg" image="/images/topMenu/youtube.png"/>
+						<View class="separator"/>
+					</View>
+					<View class="topMenuItem">
+						<ImageView id="search" class="topMenuImg" image="/images/topMenu/search.png"/>
+						<View class="separator"/>
+					</View>
+					<View class="topMenuItem">
+						<ImageView id="setting" class="topMenuImg" image="/images/topMenu/setting.png"/>
+						<View class="separator"/>
+					</View>
+				</ScrollView>
+				<TableView id="menuMain" onSingletap="onMenuClick">
+				</TableView>
+			</Window>
+			
+			<NavigationWindow id="centerWindow" platform="ios" role="centerWindow">
+	            <Window>
+	                <LeftNavButton>
+	                    <Button >Left</Button>
+	                </LeftNavButton>
+	                <Label>I am center</Label>
+	                <RightNavButton>
+	                    <Button >Right</Button>
+	                </RightNavButton>
+	            </Window>
+			</NavigationWindow>
+			<View id="mainWindow" class="mainWindow" platform="android" role="centerWindow">
+				
+			</View>
+			
+			<!--
+			<Window module="xp.ui" role="rightWindow">
+				<Label onSingletap="onClick">I am right</Label>
+			</Window>
+			-->
+
+		</Widget>
+		
+				<!--
+		<View id="loading" visible="false">
+			<ActivityIndicator id="loadingIndicator"></ActivityIndicator>
+		</View>
+		-->	
+	<!--/View-->
+</Alloy>

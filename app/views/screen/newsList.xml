@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="win" module="xp.ui" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		<View class="searchContainer">
+			<View class="searchBox">
+				<TextField id="searchTxt"></TextField>
+			</View>
+			<Button id="sortBtn"/>
+		</View>
+		<View class="separator"/>
+		<TableView id="newsList">
+			<Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="myLoader" />
+		</TableView>
+	</Window>
+</Alloy>

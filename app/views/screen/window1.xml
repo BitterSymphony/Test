@@ -1,0 +1,67 @@
+<Alloy>
+	<Window id="win" module="xp.ui" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>	
+		<ImageView class="banner" />
+		<View class="iconList">
+			<View class="iconContainer">
+				<View id="dailyLuck" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/daily.png"/>
+					<Label class="iconTxt" text="每日財運"/>
+				</View>
+			</View>
+			
+			<View class="iconContainer">
+				<View id="news" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/news.png"/>
+					<Label class="iconTxt" text="最新消息"/>
+				</View>
+			</View>
+			<View class="iconContainer">
+				<View id="about" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/about.png"/>
+					<Label class="iconTxt" text="簡介"/>
+				</View>
+			</View>
+			
+			<View class="iconContainer">
+				<View id="ziwei" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/ziwei.png"/>
+					<Label class="iconTxt" text="紫微命盤"/>
+				</View>
+			</View>
+			<View class="iconContainer">
+				<View id="calendar" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/forum.png"/>
+					<Label class="iconTxt" text="萬年曆"/>
+				</View>
+			</View>
+			<View class="iconContainer">
+				<View id="classroom" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/classroom.png"/>
+					<Label class="iconTxt" text="教室"/>
+				</View>
+			</View>
+			<View class="iconContainer">
+				<View id="magazine" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/magazine.png"/>
+					<Label class="iconTxt" text="書刊"/>
+				</View>
+			</View>
+			<View class="iconContainer">
+				<View id="forum" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/forum.png"/>
+					<Label class="iconTxt" text="公眾論壇"/>
+				</View>
+			</View>
+			<View class="iconContainer">
+				<View id="question" class="innerVer">
+					<ImageView class="iconImg" image="/images/index/question.png"/>
+					<Label class="iconTxt" text="課程提問"/>
+				</View>
+			</View>
+		</View>
+		
+	</Window>
+</Alloy>

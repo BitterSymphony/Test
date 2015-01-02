@@ -1,0 +1,234 @@
+<Alloy>
+	<Window id="win" module="xp.ui" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		<View class="tabContainer">
+			<View class="tabBox">
+				<View id="leftTab" class="tab" right="0"  backgroundImage="/images/tabBox.png">
+					<Label id="leftTabTxt" text="萬年曆" color="#6c207f" />
+				</View>
+			</View>
+			<View class="tabBox">
+				<View id="rightTab" class="tab" left="0">
+					<Label id="rightTabTxt" text="註解" />
+				</View>
+			</View>
+		</View>
+		<View class="separator" />
+		
+		<ScrollView id="contentScroll" class="contentScroll">
+			<View class="btnContainer">
+				<Button class="cal_prev"/>
+				<View class="innerHorizon">
+					<View id="dayBox">
+						<TextField id="dayTxt"></TextField>
+					</View>
+					<Button id="todayBtn" title="今天" text="今天"/>
+				</View>
+				<Button class="cal_next"/>
+			</View>
+			<View class="cal_container">
+				<View class="weekGrid">
+					<View class="weekBg">
+						<Label text="周日" color="#614718"/>
+					</View>
+					<View class="weekBg">
+						<Label text="周一" color="#614718"/>
+					</View>
+					<View class="weekBg">
+						<Label text="周二" color="#614718"/>
+					</View>
+					<View class="weekBg">
+						<Label text="周三" color="#614718"/>
+					</View>
+					<View class="weekBg">
+						<Label text="周四" color="#614718"/>
+					</View>
+					<View class="weekBg">
+						<Label text="周五" color="#614718"/>
+					</View>
+					<View class="weekBg">
+						<Label text="周六" color="#614718"/>
+					</View>
+				</View>
+				<View class="dayGrid">
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+					<View class="dayBg">
+						<View class="innerVer">
+							<Label text="10" class="dayNum"/>
+							<Label text="初四" class="dayChar"/>
+						</View>
+					</View>
+				</View>
+			</View>
+			<View top="10" width="Ti.UI.FILL" height="Ti.UI.SIZE">
+				<Label left="5" right="5" text="陽曆紅色字表示公休/節假日。\n紫色字表示24節氣日，紅色字表示法定節假日。\n流年資料\n\n2015年是乙未年,生肖羊年，因此屬羊的人2015年為坐太歲；按十二地支生制化原理，丑未沖，就是說屬牛的人2015年為沖太歲。"/>
+			</View>
+			<View top="10" width="Ti.UI.FILL" height="100" layout="vertical">
+				<View class="separator"/>
+				<View  width="Ti.UI.FILL" height="98" layout="horizontal">
+					<View width="40%" height="Ti.UI.FILL" layout="vertical">
+						<Label text="2014年6月" top="5" color="#614718"/>
+						<Label text="10" top="5" color="#614718"/>
+					</View>
+					<View width="3%" height="Ti.UI.FILL" layout="vertical">
+						<View class="separator" width="1px" height="90" top="5%"/>
+					</View>
+					<View width="57%" height="Ti.UI.FILL" layout="vertical">
+						<Label text="星期日" left="2" top="5" color="#614718"/>
+						<Label text="甲午年            己己月\n癸卯(開)日     辛酉時\n生肖屬馬農曆五月初四" left="2" top="5" color="#614718"/>
+					</View>
+				</View>
+				<View class="separator"/>
+			</View>
+			
+			<View top="10" width="Ti.UI.FILL" left="10" height="Ti.UI.SIZE" layout="vertical">
+				<Label text="十二建除忌宜 : (開)日" top="5" left="0" color="#004a80"/>
+				<Label text="開始、開展的日子。" top="5" left="0" color="#614718"/>
+				<View layout="horizontal" width="Ti.UI.FILL" top="10" height="Ti.UI.SIZE">
+					<Label text="宜：" top="0" left="0" color="#ff0000"/>
+					<Label text="祭祀、祈福、入學、上任、修造、動土、開市、安床、交易、出行、豎柱。" width="300" left="0" color="#614718"/>
+				</View>
+				<View layout="horizontal" width="Ti.UI.FILL" top="10" height="Ti.UI.SIZE">
+					<Label text="忌：" left="0" color="#598527"/>
+					<Label text="放債、訴訟、安葬。" width="300" left="0" color="#614718"/>
+				</View>
+				
+			</View>
+			<View class="separator" top="15"/>
+			<View height="60" width="Ti.UI.FILL"/>
+		</ScrollView>
+	</Window>
+</Alloy>

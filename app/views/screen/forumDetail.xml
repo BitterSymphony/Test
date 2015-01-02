@@ -1,0 +1,31 @@
+<Alloy>
+	<Window id="win" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		<ScrollView class="Scrollwin">
+			<View class="statusField">
+				<View class="userState">
+					<ImageView id="userImg" left="10"/>
+					<View class="innerVer">
+						<Label id="userName"/>
+						<Label text="版主"/>
+					</View>
+				</View>
+				<View class="postInfoView">
+					<View class="innerVer">
+						<Label id="recordCount" class="postInfo" left="0" text="1"/>
+						<View class="innerHor" left="0">
+							<Label id="replyCount" class="postInfo"/> <Label id="viewCount" class="postInfo" left="10"/>
+						</View>
+						<Label id="fDate" class="postInfo" left="0"/>
+					</View>
+				</View>
+			</View>
+			<View class="contentView">
+				<Label id="fName"/>
+				<Label id="fDetail"/>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

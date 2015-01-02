@@ -1,0 +1,43 @@
+".container":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL,
+	orientationModes:[Ti.UI.PORTRAIT],
+	//backgroundColor:'#ebebeb',
+	layout:'vertical',
+ 	width:Ti.UI.FILL,
+ 	height:Ti.UI.FILL,
+ 	backgroundImage:'/images/bgPattern.jpg',
+ 	backgroundRepeat : true
+},
+".container[platform=ios]":{
+	barColor:'#eee3c3',
+	//autoAdjustScrollViewInsets:false,
+	extendEdges:[Ti.UI.EXTEND_EDGE_BOTTOM, Ti.UI.EXTEND_EDGE_TOP],
+	navTintColor:'black',
+	
+    titleAttributes: {
+        color:'black',
+    },
+    statusBarStyle: Titanium.UI.iPhone.StatusBar.TRANSLUCENT_BLACK,
+}
+".container[platform=android]":{
+	
+}
+"NavigationWindow":{
+	backgroundColor:'#ebebeb',
+}
+".innerVer":{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	layout:'vertical'
+}
+".innerHor":{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	layout:'horizontal'
+}
+
+".fill":{
+	width:Ti.UI.FILL,
+	height:Ti.UI.FILL
+}

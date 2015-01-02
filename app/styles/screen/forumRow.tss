@@ -1,0 +1,78 @@
+".container" : {
+  
+},
+"#rowView":{
+	width:Ti.UI.FILL,
+	height:100
+},
+
+'.postInfo':{
+	left:0,
+	color:'#939598',
+},
+'.postInfo[platform=ios]':{
+	font:{fontSize:'10',fontFamily:'MYRIADPRO-REGULAR'}
+},
+'.postInfo[platform=android]':{
+	font:{fontSize:'10',fontFamily:'MYRIADPRO-REGULAR'}
+},
+'.memberInfo':{
+	left:0,
+	color:'#939598',
+},
+'.memberInfo[platform=ios]':{
+	font:{fontSize:'12',fontFamily:'MYRIADPRO-REGULAR'}
+},
+'.memberInfo[platform=android]':{
+	font:{fontSize:'12',fontFamily:'MYRIADPRO-REGULAR'}
+},
+
+'#mPic':{
+	width:30,
+	height:30
+},
+
+'.infoContainer':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	bottom:10,
+	right:10,
+	layout:'vertical'
+},
+'.innerHorizon':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	layout:'horizontal'
+}
+'.memberInfo':{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	bottom:10,
+	left:10,
+	layout:'horizontal'
+},
+'#fName':{
+	color : '#614718',
+	font : {
+		fontSize : 18,
+		fontFamily : 'HelveticaNeue'
+	},
+    left : 10,
+    top : 10,
+    right : 10
+},
+'#newsDate':{
+	color : '#686765',
+	font : {
+		fontSize : 15,
+		fontFamily : 'HelveticaNeue'
+	},
+    left : 100,
+    top : 30,
+},
+'.separator':{
+	color : '#aa8965',
+    width:Ti.UI.FILL,
+    bottom : 0,
+    height : '1px',
+}

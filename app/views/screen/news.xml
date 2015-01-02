@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="win" module="xp.ui" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		<View class="searchContainer">
+			<View class="searchBox">
+				<TextField id="searchTxt"></TextField>
+			</View>
+			<Button id="sortBtn"/>
+		</View>
+		<View class="separator"/>
+		<ListView id="eventsList"/>
+		<!--<Label id="testLbl" module="xp.ui"  html="<br/><p>sadasdas</p><p>sadasdas</p><font size=17>Hello <b>Bold</b> <font color=#FF0000>World!</font></font>"/>
+	-->
+	</Window>
+</Alloy>

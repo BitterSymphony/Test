@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win" module="xp.ui" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		
+		<Label>Window 2\n\n\n</Label>
+		<Button onClick="onClick">Popup</Button>
+	</Window>
+</Alloy>

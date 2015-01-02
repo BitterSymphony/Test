@@ -1,0 +1,5 @@
+// this is a generated file - DO NOT EDIT
+
+DK_NAPP_DRAWER_OTHER_LDFLAGS=$(inherited) -framework QuartzCore
+TI_GOOGLEANALYTICS_OTHER_LDFLAGS=$(inherited) /usr/lib/libz.dylib -framework CoreData -framework SystemConfiguration
+OTHER_LDFLAGS=$(inherited) $(DK_NAPP_DRAWER_OTHER_LDFLAGS) $(TI_GOOGLEANALYTICS_OTHER_LDFLAGS) 

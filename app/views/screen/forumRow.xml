@@ -1,0 +1,17 @@
+<Alloy>
+	<TableViewRow id="rowView">
+		<Label id="fName"/>
+		<View class="memberInfo">
+			<ImageView id="mPic" image="/images/user.jpg"/>
+			<Label id="mName" left="10" class="memberInfo"/>
+		</View>
+		<View class="infoContainer">
+			<View class="innerHorizon" left="0">
+				<Label id="fCountView" class="postInfo"/>
+				<Label id="fCountReply" class="postInfo" left="10"/>
+			</View>
+			<Label id="fDate" class="postInfo"/>
+		</View>
+		<View class="separator"/>
+    </TableViewRow>	
+</Alloy>

@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="win" module="xp.ui" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		<View class="tabContainer">
+			<View class="tabBox">
+				<View id="leftTab" class="tab" right="0">
+					<Label id="leftTabTxt" text="紫微揚"/>
+				</View>
+			</View>
+			<View class="tabBox">
+				<View id="rightTab" class="tab" left="0" backgroundImage="/images/tabBox.png">
+					<Label id="rightTabTxt" text="書籍" />
+				</View>
+			</View>
+		</View>
+		<View class="separator" />
+		<ScrollView id="contentScroll" class="contentScroll">
+			<Label id="contentTxt" module="xp.ui" platform="android"  html="<font size=17>Hello <b>Bold</b> <font color=#FF0000>World!</font></font>"/>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="win" class="container" onOpen="onOpen">
+		<LeftNavButton platform="ios">
+			<Button id="menuButton" onClick="onMenuButtonClick" />
+		</LeftNavButton>
+		<ScrollView class="Scrollwin">
+			<View class="searchContainer">
+				<Label id="nTitle" color="#935999" class="nTitle" />
+				<Label id="nDate" color="#686765" class="nTitle"/>
+			</View>
+			<View  id="nImg"/>
+			<Label id="nDetail"/>
+		</ScrollView>
+	</Window>
+</Alloy>

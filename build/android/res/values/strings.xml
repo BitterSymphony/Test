@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="app_name" formatted="false">Mobile Trader (Client)</string>
+	<string name="menu_window1" formatted="false">Window 1</string>
+	<string name="menu_window2" formatted="false">Window 2</string>
+</resources>
